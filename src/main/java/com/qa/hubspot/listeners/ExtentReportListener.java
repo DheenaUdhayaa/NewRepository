@@ -37,7 +37,7 @@ public class ExtentReportListener extends BasePage implements ITestListener {
 
 		Path path = Paths.get(OUTPUT_FOLDER);
 		// if directory exists?
-		if (!Files.exists(path)) {
+		if (Files.exists(path)) {
 			try {
 				Files.createDirectories(path);
 			} catch (IOException e) {
