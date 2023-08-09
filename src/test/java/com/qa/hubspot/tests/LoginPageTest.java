@@ -72,7 +72,7 @@ public class LoginPageTest {
 //		homePage = loginPage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
 //		Assert.assertTrue(homePage.verifyLoggedAccountName());
 //		Assert.assertEquals(homePage.getLoggedAccountName(), prop.getProperty("accountname"));
-		Assert.assertTrue(true);
+		Assert.assertTrue(false);
 	}
 
 	@AfterTest
